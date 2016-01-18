@@ -8,7 +8,37 @@
 import scrapy
 
 
-class DotaherosItem(scrapy.Item):
-    # define the fields for your item here like:
-    # name = scrapy.Field()
-    pass
+class DotaSolutionItem(scrapy.Item):
+    Name = scrapy.Field()
+    Solutions = scrapy.Field()
+
+
+class DotaHerosItem(scrapy.Item):
+    Name = scrapy.Field()
+    Position = scrapy.Field()
+
+    DPS = scrapy.Field()
+    Push = scrapy.Field()
+    Gank = scrapy.Field()
+    Support = scrapy.Field()
+    Tank = scrapy.Field()
+
+    HP = scrapy.Field()
+    MP = scrapy.Field()
+    BiuDistance = scrapy.Field()
+    Speed = scrapy.Field()
+    Attack = scrapy.Field()
+    AttackSpeed = scrapy.Field()
+    Armour = scrapy.Field()
+    Power = scrapy.Field()
+    Alacrity = scrapy.Field()
+    Intelligence = scrapy.Field()
+
+    Advantage = scrapy.Field()
+    Disadvantage = scrapy.Field()
+
+    Partner = scrapy.Field()
+    Enemy = scrapy.Field()
+
+    BuildSolution = scrapy.Field()
+    EquipmentSolution = scrapy.Field()

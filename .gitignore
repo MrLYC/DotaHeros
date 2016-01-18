@@ -57,3 +57,7 @@ docs/_build/
 
 # PyBuilder
 target/
+
+DotaHeros.sublime-project
+DotaHeros.sublime-workspace
+.DS_Store
